@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>look</title>
+    <link rel="stylesheet" href="01-logInForm.css">
+</head>
+<body>
+
+    <div class="container">
+        <form class="my-form">
+            <div class="login-welcome-row">
+                <a href="#" title="logo">
+                    <!-- logo -->
+                    <img src="../icons/logo.svg" alt="logo" class="logo">
+                </a>
+
+                <h3 style="color: black;">..lOOk..</h3>
+                <h1>Welcome back &#x1F44F</h1>
+                <p>please enter your details</p>
+            </div>
+
+            <!-- email -->
+            <div class="input_wrapper">
+                <input type="email" id="email" name="email" class="input_field" placeholder="Your Email" required autocomplete="off">
+                <label for="email" class="input_label">
+                    Email:
+                </label>
+            </div>
+
+            <!-- password -->
+            <div class="input_wrapper">
+                <input type="password" id="password" class="input_field" placeholder="Your password" required autocomplete="off">
+                <label for="password" class="input_label">
+                    password:
+                </label>
+            </div>
+
+            <!-- login btn -->
+            <button class="my-form_btn">
+                login
+            </button>
+
+            <div class="social-row">
+                <a href="#" title="Use google">
+                    <img src="../icons/Google_Icons-09-512.webp" alt="logo">
+                    log in with google
+                </a>
+            </div>
+            
+            <div class="my-form_actions">
+                <div class="my-form_row">
+                    <span>Don't have an account</span>
+                    <a href="./02-sighUpForm.html" title="Create account">
+                        sign up
+                    </a>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

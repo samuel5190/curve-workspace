@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  background-color: white;
+  height: 60%;
+  width: 60%;
+  display: grid;
+  grid-template-columns: 2.7fr 2fr 1fr;
+  grid-gap: 2px;
+}
+
+.div1 {
+  display: grid;
+  grid-gap: 2px;
+}
+
+.jack1 {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  grid-gap: 2px;
+}
+
+.jack2 {
+  display: grid;
+  grid-gap: 2px;
+}
+
+.joy2 {
+  background-color: blue;
+}
+
+.joy1 {
+  background-color: chocolate;
+}
+
+.div2 {
+  background-color: tomato;
+  font-weight: bold;
+  align-content: center;
+}
+
+.div3 {
+  grid-gap: 2px;
+  display: grid;
+}
+
+.item1 {
+  display: grid;
+  grid-gap: 2px;
+}
+
+.item2 {
+  background-color: rgba(186, 216, 14, 0.932);
+}
+
+.now1 {
+  background-color: yellow;
+}
+
+.now2 {
+  background-color: rgb(57, 66, 121);
+}
+
+.now3 {
+  background-color: rgb(62, 190, 190);
+}
+
+.now4 {
+  background-color: crimson;
+}
+
+.open1 {
+  background-color: chartreuse;
+  display: grid;
+  grid-template-columns: 1fr 0.8fr 1fr;
+}
+
+.open2 {
+  background-color: rgb(255, 238, 0);
+}
+
+.jay1 {
+  background-color: aqua;
+}
+
+.jay2 {
+  background-color: cornflowerblue;
+}
+
+.jay3 {
+  background-color: coral;
+}

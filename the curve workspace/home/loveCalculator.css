@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 60%;
+    width: 40rem;
+    background-color: rgb(212, 203, 221);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1,.box2 {
+    margin-bottom: 30px;
+}
+
+.input_box {
+    height: 90%;
+    width: 90%;
+    background-color: aqua;
+    padding: 20px ;
+    /* border: ; */
+}
+
+.textArea {
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid #eee;
+    height: 35px;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.textArea :hover {
+
+}
+
+.btn {
+    height: 30px;
+    width: 70px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}

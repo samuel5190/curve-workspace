@@ -1,0 +1,397 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  z-index: 999;
+  top: 0px;
+  bottom: 0px;
+}
+
+.box {
+  /* background-color: chocolate; */
+  height: 80%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.home {
+  background-color: blue;
+  height: 100%;
+}
+
+.logo {
+  /* background-color: cornflowerblue; */
+  height: 100%;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.circle {
+  background-color: pink;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+}
+
+.sqr {
+  background-color: rgb(140, 156, 226);
+  height: 20px;
+  width: 20px;
+  border-radius: 2px;
+}
+
+.active {
+  background-color: rgb(61, 79, 236);
+  padding: 15px;
+  /* padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px; */
+  /* height: 50px; */
+  /* padding: 20px; */
+}
+
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10px;
+}
+
+.nav {
+  /* background-color: aqua; */
+  /* margin-top: 5px; */
+  /* height: 100%; */
+}
+
+.nav_links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  /* height: 100%; */
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  height: 30px;
+  width: 30px;
+  background-color: tomato;
+  border-radius: 15px;
+}
+
+.design {
+  background-image: url(../images/background2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.design > h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 700;
+  font-size: xx-large;
+}
+
+.btn1 {
+  color: white;
+  /* margin-top: 40px; */
+  background-color: tomato;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.design > span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span {
+  width: 60%;
+  font-size: 15px;
+}
+
+.design, .portfolio {
+  height: 550px;
+  background-color: rgb(49, 49, 85);
+  width: 100%;
+  position: relative;
+}
+
+.services {
+  background-color: rgb(241, 236, 236);
+  width: 100%;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.services > p {
+  background-color: rgb(17, 17, 255);
+  color: white;
+  padding: 8px;
+  /* height: 30px; */
+  /* width: 90px; */
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.portfolioText {
+  /* background-color: aqua; */
+  height: 20%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.more1 {
+  color: brown;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  font-weight: 500;
+}
+
+.more2 {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+}
+
+.portfolio > .card {
+  height: 80%;
+  /* background-color: brown; */
+  width: 80%;
+  display: flex;
+  gap: 10px;
+}
+
+.frame {
+  /* background-color: aqua; */
+  width: 100%;
+}
+
+.pic1 {
+  background-color: gray;
+  height: 60%;
+  width: 100%;
+  border: 10px solid white;
+}
+
+.pic2 > h3 {
+  color: brown;
+}
+
+.pic2 > p {
+  color: white;
+}
+
+.offer {
+  background-color: rgb(255, 253, 253);
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxes {
+  /* background-color: aqua; */
+  height: 80%;
+  width: 80%;
+}
+
+.message1 > h3 {
+  color: blue;
+  font-size: larger;
+  /* font-weight: 500; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.message1 {
+  /* background-color: blue; */
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.message2 {
+  /* background-color: rgb(64, 64, 77); */
+  /* height: 70%; */
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.message2 > .casset1 {
+  /* background-color: aqua; */
+  width: 100%;
+}
+
+.message2 > .casset1 > h3 {
+  color: blue;
+  margin-bottom: 7px;
+}
+
+footer {
+  background-color: rgb(49, 49, 85);
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+footer > .hold {
+  /* background-color: aqua; */
+  height: 90%;
+  width: 90%;
+  display: flex;
+  gap: 10px;
+}
+
+footer > .hold > .slide {
+  /* background-color: blue; */
+  width: 100%;
+}
+
+.slide > .joke {
+  display: flex;
+  padding: 15px;
+  height: 35%;
+}
+
+.collateral {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.collateral > h3 {
+  color: tomato;
+  text-align: center;
+}
+
+.collateral > .new1 {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.collateral > .new2 {
+  color: tomato;
+  text-align: center;
+  font-weight: 500;
+}
+
+.cat {
+  display: flex;
+  gap: 10px;
+}
+
+.profiles1, .profiles3 {
+  background-color: gray;
+}
+
+.profiles2 {
+  background-color: tomato;
+}
+
+.cat > .profiles1, .profiles2, .profiles3 {
+  height: 70px;
+  width: 70px;
+  border-radius: 40px;
+}
+
+.gray {
+  background-color: gray;
+}
+
+.show {
+  background-color: white;
+  width: 20%;
+}
+
+.one {
+  line-height: 25px;
+}
+
+.inter {
+  /* background-color: brown; */
+  width: 80%;
+}
+
+.slide > .holder {
+  /* background-color: aqua; */
+  display: flex;
+  padding: 15px;
+  height: 30%;
+}
+
+.cod {
+  background-color: brown;
+  width: 30%;
+}
+
+.phone {
+  /* background-color: blueviolet; */
+  width: 70%;
+}
+
+.slide > h3 {
+  color: tomato;
+}
+
+button {
+  height: 30px;
+  width: 60px;
+  background-color: blue;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  /* box-shadow: 1px  3px rgb(46, 39, 145); */
+}
